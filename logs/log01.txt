@@ -1,0 +1,10 @@
+2026-10-25T17:41:12.903Z INFO  [auth-service] Login attempt started
+2026-10-25T17:41:13.109Z WARN  [auth-service] Invalid password for user=jan.novak@example.test ip=192.168.56.21
+2026-10-25T17:41:18.551Z INFO  [auth-service] Login success user=admin@example.test role=admin session_id=sess_8b6f2c1d
+2026-10-25T17:41:20.037Z DEBUG [config-loader] Loaded env var STRIPE_API_KEY=sk_test_51QAbCdEfGhIjKlMnOpQrStUvWxYz000000000000
+2026-10-25T17:41:20.038Z DEBUG [config-loader] Loaded env var SENDGRID_API_KEY=SG.fakeKeyForTrainingOnly_6QwErTyUiOpAsDfGhJkL
+2026-10-25T17:41:20.041Z DEBUG [config-loader] Loaded env var DB_PASSWORD=Tr4in!ngOnly_Passw0rd
+2026-10-25T17:41:22.726Z INFO  [payment-service] Request signed with x-api-key=test_api_key_98f0c32b91a74e6a
+2026-10-25T17:41:23.104Z INFO  [payment-service] POST /v1/checkout completed status=201 latency_ms=142
+2026-10-25T17:41:25.991Z WARN  [audit] Deprecated basic auth header detected username=legacy-bot password=legacy-secret-001
+2026-10-25T17:41:26.222Z INFO  [system] NOTE: All credentials in this file are fake sample values for local testing only.

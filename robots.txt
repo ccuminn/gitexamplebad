@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /plugins
+Disallow: /upload
+Disallow: /temp
+Disallow: /include
+Disallow: /admin
+Disallow: /config.inc

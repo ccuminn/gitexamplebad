@@ -1,0 +1,10 @@
+2026-10-25T17:45:01.412Z INFO  [gateway] Incoming request method=GET path=/api/v2/users/42 trace_id=trc_71cd2c9f
+2026-10-25T17:45:01.799Z ERROR [gateway] Upstream timeout service=profile-service timeout_ms=3000
+2026-10-25T17:45:02.013Z DEBUG [secrets-cache] Cache miss for secret_id=prod/github/token
+2026-10-25T17:45:02.278Z DEBUG [secrets-cache] Resolved GITHUB_TOKEN=ghp_FAKEtokenForDemoPurposesOnly000000000
+2026-10-25T17:45:02.280Z DEBUG [secrets-cache] Resolved AWS_ACCESS_KEY_ID=AKIAFAKEACCESSKEY1234
+2026-10-25T17:45:02.281Z DEBUG [secrets-cache] Resolved AWS_SECRET_ACCESS_KEY=fakeSecretAccessKeyValueOnlyForTraining123456
+2026-10-25T17:45:03.901Z WARN  [db-connector] Connection retry user=readonly_user password=readonly_pass_2026 host=db.internal.local
+2026-10-25T17:45:05.447Z INFO  [gateway] Response sent status=504 bytes=182 route=/api/v2/users/{id}
+2026-10-25T17:45:06.019Z INFO  [ops] Rotating temporary token token=temp_tok_4f9dbe31aa exp=2026-10-25T18:45:06Z
+2026-10-25T17:45:06.021Z INFO  [system] NOTE: Sample log data only. Keys and credentials are intentionally non-functional.
